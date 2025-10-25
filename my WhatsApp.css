@@ -1,0 +1,104 @@
+body {
+       height: 1000px;
+       background-color: beige;
+   }
+
+.header-grid {
+     display: grid;
+     grid-template-columns: 160px 60px 60px;
+     column-gap: 15px;
+     height: 40px;
+     position: fixed;
+     background-color: beige;
+     top: 0px;
+     left: 0px;
+     right: 0px;
+}
+
+.meta-input {
+       margin-top: 50px;
+   }
+   
+ .page-grid {
+       display: grid;
+       grid-template-columns: 150px 150px;
+       column-gap: 5px;
+    }
+   
+ .info-div {
+        margin-top: 5px;
+        width: 150px;
+        background-color: white;
+        border-radius: 10px;
+        
+        height: 140px;
+        
+        
+    }
+    
+  .username {
+        margin-left: 28px;
+        font-weight: bold;
+     }
+   
+   .innerInfo-grid {
+         display: grid;
+         grid-template-columns: 50px 50px 50px;
+      }
+      
+   .user-img {
+           height: 80px;
+           width: 80px;
+           border-radius: 40px;
+           margin-left: -16px;
+       }
+       
+   .status-div {
+         
+      }
+      
+    .status-img {
+           height: 20px;
+           width: 20px;
+           
+           border-radius: 10px;
+           margin-top: 80px;
+           margin-left: 30px;
+       }
+       
+    .timeOrdate {
+           font-size: 10px;
+           font-weight: bold;
+           
+           margin-left: -25px;
+           margin-top: 84.5px;
+       }
+      
+   .latestMessage-grid {
+          display: grid;
+          grid-template-columns: 60px 90px;
+      }
+      
+  .last-person,
+  .last-message {
+         font-size: 8px;
+         margin-top: 5px;
+         margin-left: 1px;
+         font-weight: bold;
+     }
+     
+  .last-message {
+        margin-left: -8px;
+     }
+   
+   .footer-grid {
+     display: grid;
+     grid-template-columns: 70px 70px 70px 70px;
+     column-gap: 17px;
+     height: 80px;
+     position: fixed;
+     background-color: beige;
+     bottom: 0px;
+     left: 0px;
+     right: 0px;
+}
